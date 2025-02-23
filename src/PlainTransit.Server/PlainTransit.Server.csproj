@@ -7,13 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CommunityToolkit.Datasync.Server" Version="8.0.5" />
-    <PackageReference Include="CommunityToolkit.Datasync.Server.EntityFrameworkCore" Version="8.0.5" />
-    <PackageReference Include="CommunityToolkit.Datasync.Server.LiteDb" Version="8.0.5" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\PlainTransit.Core\PlainTransit.Core.csproj" />
+    <ProjectReference Include="..\PlainTransit.DataSync.Server\PlainTransit.DataSync.Server.csproj" />
   </ItemGroup>
 
 </Project>

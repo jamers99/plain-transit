@@ -1,4 +1,4 @@
-﻿namespace PlainTransit.Core.Models;
+﻿namespace PlainTransit.Core.Contract;
 
 public interface IRider
 {

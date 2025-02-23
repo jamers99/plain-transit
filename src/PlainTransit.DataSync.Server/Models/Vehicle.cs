@@ -1,7 +1,7 @@
 ﻿using CommunityToolkit.Datasync.Server.LiteDb;
-using PlainTransit.Core.Models;
+using PlainTransit.Core.Contract;
 
-namespace PlainTransit.Server.Models;
+namespace PlainTransit.DataSync.Server.Models;
 
 public class Vehicle : LiteDbTableData, IVehicle
 {

@@ -1,9 +1,10 @@
-using CommunityToolkit.Datasync.Server;
+using PlainTransit.DataSync.Server;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDatasyncServices();
-builder.Services.AddControllers();
+builder.Services
+    .AddServerDataProvider()
+    .AddControllers();
 
 var app = builder.Build();
 

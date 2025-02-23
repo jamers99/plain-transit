@@ -5,7 +5,13 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlainTransit.Server", "PlainTransit.Server\PlainTransit.Server.csproj", "{83180656-9B39-49CA-B6C7-A1F77060FD1A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlainTransit.Core", "PlainTransit.Core\PlainTransit.Core.csproj", "{0EF7CFF2-BF5F-4EEB-A16D-32BCEE544DF1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlainTransit.DataSync.Server", "PlainTransit.DataSync.Server\PlainTransit.DataSync.Server.csproj", "{99A18B73-9BFF-40EA-92DD-0789C8CAEC95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlainTransit.DataSync.Client", "PlainTransit.DataSync.Client\PlainTransit.DataSync.Client.csproj", "{9C71ABC0-A1F3-4324-B6DE-9CF436D20196}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlainTransit", "PlainTransit\PlainTransit.csproj", "{5CF3D127-9C8B-4424-9593-8D3F4AC08073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlainTransit.Client", "PlainTransit.Client\PlainTransit.Client.csproj", "{98D2A70A-9BAE-43E3-8D69-F7CF2F99A931}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +23,24 @@ Global
 		{83180656-9B39-49CA-B6C7-A1F77060FD1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83180656-9B39-49CA-B6C7-A1F77060FD1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83180656-9B39-49CA-B6C7-A1F77060FD1A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0EF7CFF2-BF5F-4EEB-A16D-32BCEE544DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0EF7CFF2-BF5F-4EEB-A16D-32BCEE544DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0EF7CFF2-BF5F-4EEB-A16D-32BCEE544DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0EF7CFF2-BF5F-4EEB-A16D-32BCEE544DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99A18B73-9BFF-40EA-92DD-0789C8CAEC95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A18B73-9BFF-40EA-92DD-0789C8CAEC95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A18B73-9BFF-40EA-92DD-0789C8CAEC95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A18B73-9BFF-40EA-92DD-0789C8CAEC95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C71ABC0-A1F3-4324-B6DE-9CF436D20196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C71ABC0-A1F3-4324-B6DE-9CF436D20196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C71ABC0-A1F3-4324-B6DE-9CF436D20196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C71ABC0-A1F3-4324-B6DE-9CF436D20196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF3D127-9C8B-4424-9593-8D3F4AC08073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF3D127-9C8B-4424-9593-8D3F4AC08073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF3D127-9C8B-4424-9593-8D3F4AC08073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF3D127-9C8B-4424-9593-8D3F4AC08073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98D2A70A-9BAE-43E3-8D69-F7CF2F99A931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D2A70A-9BAE-43E3-8D69-F7CF2F99A931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D2A70A-9BAE-43E3-8D69-F7CF2F99A931}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{98D2A70A-9BAE-43E3-8D69-F7CF2F99A931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D2A70A-9BAE-43E3-8D69-F7CF2F99A931}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98D2A70A-9BAE-43E3-8D69-F7CF2F99A931}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
